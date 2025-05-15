@@ -1,0 +1,5 @@
+Input: s = "anagram", t = "nagaram"
+Output: True
+
+Input: s = "rat", t = "car"
+Output: False
