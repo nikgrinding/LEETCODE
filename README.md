@@ -23,12 +23,12 @@ It covers a wide range of topics including arrays, trees, dynamic programming, g
 ```
 LeetCode/
 ├── 0001 - Two Sum/
-│   ├── solution.py
 │   ├── README.md
+│   ├── solution.py
 │   ├── test.txt
 ├── 0002 - Add Two Numbers/
-│   ├── solution.py
 │   ├── README.md
+│   ├── solution.py
 │   ├── test.txt
 ...
 ```
@@ -39,9 +39,9 @@ Each folder is named in the format:
 <problem-number> - <problem-title>/
 ```
 
-And contains:
-- **`solution.py`**: Python implementation of the solution  
-- **`README.md`**: Problem description, approach, and complexity analysis  
+And contains:  
+- **`README.md`**: Problem description, approach, and complexity analysis
+- **`solution.py`**: Python implementation of the solution
 - **`test.txt`**: Sample input/output cases for testing  
 
 ---
