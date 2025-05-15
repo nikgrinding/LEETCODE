@@ -25,11 +25,11 @@ LeetCode/
 ├── 0001 - Two Sum/
 │   ├── solution.py
 │   ├── README.md
-│   ├── test_cases.txt
+│   ├── test.txt
 ├── 0002 - Add Two Numbers/
 │   ├── solution.py
 │   ├── README.md
-│   ├── test_cases.txt
+│   ├── test.txt
 ...
 ```
 
@@ -42,7 +42,7 @@ Each folder is named in the format:
 And contains:
 - **`solution.py`**: Python implementation of the solution  
 - **`README.md`**: Problem description, approach, and complexity analysis  
-- **`test_cases.txt`**: Sample input/output cases for testing  
+- **`test.txt`**: Sample input/output cases for testing  
 
 ---
 
