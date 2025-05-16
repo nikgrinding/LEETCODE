@@ -11,7 +11,7 @@ class Solution(object):
             key = tuple(l)
             if key not in hashtable: hashtable[key] = [string]
             else: hashtable[key].append(string)
-        return list(hashtable.values())
+        return list(hashtable.values()) 
 
 if __name__ == "__main__":
     
