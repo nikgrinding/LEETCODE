@@ -9,9 +9,9 @@ Two strings are anagrams if they have the same length and the frequency of each 
 ## Approach
 - Create a dictionary to act as a hashtable
 - Traverse through each string in `strs`
-- For each string, calculate the frequency of its characters and use this frequency as the key in the hash table.
-- If the key exists, append the string to its value.
-- If not, add a new entry in the hash table with the frequency as the key and the string in a new list as the value.
+- For each string, calculate the frequency of its characters and use this frequency as the key in the hash table
+- If the key exists, append the string to its value
+- If not, add a new entry in the hash table with the frequency as the key and the string in a new list as the value
 
 ## Complexity
 - Time: O(n*k)
