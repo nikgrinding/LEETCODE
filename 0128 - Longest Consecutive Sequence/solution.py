@@ -10,7 +10,7 @@ class Solution(object):
         for i in hashset:
             if i-1 not in hashset:
                 curr_len = 1
-                while i+1 in nums:
+                while i+1 in hashset:
                     curr_len += 1
                     i = i+1
                 answer = max(answer, curr_len)
