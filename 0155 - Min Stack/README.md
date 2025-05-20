@@ -29,16 +29,16 @@ To get the minimum element in constant time, I realized we need to store additio
 - `getMin()` gives top of the min stack
 
 ### Approach 2: Single Stack with Encoded Differences  
-- Use one stack to store `val - min` instead of the actual value.
-- Track the current minimum in a separate variable.
+- Use one stack to store `val - min` instead of the actual value
+- Track the current minimum in a separate variable
 - When pushing:
-  - If the stack is empty, push `0` and set `min = val`.
-  - Else, push `val - min` and update `min` if `val` is smaller.
+  - If the stack is empty, push `0` and set `min = val`
+  - Else, push `val - min` and update `min` if `val` is smaller
 - When popping:
-  - If the popped value is negative, it means we popped the current minimum.
-  - Restore the previous minimum using this negative value.
-- To get the actual `top()`, decode using `min`.
-- `getMin()` just returns the current `min`.
+  - If the popped value is negative, it means we popped the current minimum
+  - Restore the previous minimum using this negative value
+- To get the actual `top()`, decode using `min`
+- `getMin()` just returns the current `min`
 
 ## Complexity  
 
