@@ -1,0 +1,11 @@
+Input: s = "()"
+Output: True
+
+Input: s = "()[]{}"
+Output: True
+
+Input: s = "(]"
+Output: False
+
+Input: s = "([])"
+Output: True
