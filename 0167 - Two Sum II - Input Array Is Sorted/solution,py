@@ -1,0 +1,42 @@
+class Solution(object):
+    def twoSum(self, numbers, target):
+        """
+        :type numbers: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        l_ptr, r_ptr = 0, len(numbers) - 1
+        while l_ptr < r_ptr:
+            if numbers[l_ptr] + numbers[r_ptr] > target: r_ptr -= 1
+            elif numbers[l_ptr] + numbers[r_ptr] < target: l_ptr += 1
+            else: return [l_ptr+1, r_ptr+1]
+
+if __name__ == "__main__":
+    
+    try:
+        ip = []
+        op = []
+
+        with open(r"LEETCODE\0167 - Two Sum II - Input Array Is Sorted\test.txt") as f:
+            line = f.readline()
+            while line:
+                if "Input" in line:
+                    l_str, target = line.split(", ")
+                    l_str = l_str.split()[-1]
+                    l_list = [int(i) for i in l_str[1:-1].split(",")]
+                    target = int(target.split()[-1])
+                    ip.append([l_list, target])
+                elif "Output" in line:
+                    op.append(line.split()[-1])
+                line = f.readline()
+
+        soln = Solution()
+        for i in range(len(ip)):
+            print("\nInput:", ip[i][0], ip[i][1])
+            print("Expected Output:", op[i])
+            print("Generated Output:", soln.twoSum(ip[i][0], ip[i][1]))
+        print()
+
+    except Exception as e:
+        print(e)
+        pass
