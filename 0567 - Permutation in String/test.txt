@@ -1,0 +1,5 @@
+Input: s1 = "ab", s2 = "eidbaooo"
+Output: True
+
+Input: s1 = "ab", s2 = "eidboaoo"
+Output: False

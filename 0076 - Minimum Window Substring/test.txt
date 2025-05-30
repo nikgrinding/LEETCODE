@@ -1,0 +1,8 @@
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+
+Input: s = "a", t = "a"
+Output: "a"
+
+Input: s = "a", t = "aa"
+Output: ""
