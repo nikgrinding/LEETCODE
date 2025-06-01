@@ -1,0 +1,8 @@
+Input: head = [3,2,0,-4], pos = 1
+Output: True
+
+Input: head = [1,2], pos = 0
+Output: True
+
+Input: head = [1], pos = -1
+Output: False
