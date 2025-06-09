@@ -18,4 +18,4 @@ To trap water at a position, we need to know the maximum height to the left and 
 
 ## Complexity  
 - Time: O(n)  
-- Space: O(1)
+- Space: O(1) 

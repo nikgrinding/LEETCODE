@@ -19,4 +19,4 @@ The brute-force way is to try every pair of lines and compute the area, but that
 ## Complexity  
 
 - Time: O(n)  
-- Space: O(1)
+- Space: O(1) 

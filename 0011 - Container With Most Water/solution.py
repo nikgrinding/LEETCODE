@@ -13,7 +13,7 @@ class Solution(object):
             if height[l_ptr] < height[r_ptr]: l_ptr += 1
             else: r_ptr -= 1
         
-        return answer
+        return answer 
 
 if __name__ == "__main__":
 
